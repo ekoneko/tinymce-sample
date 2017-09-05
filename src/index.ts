@@ -8,13 +8,11 @@ import 'tinymce/plugins/table';
 import 'tinymce/plugins/paste';
 import 'tinymce/plugins/contextmenu';
 import 'tinymce/plugins/textpattern';
-
 import 'tinymce/themes/modern';
-import 'tinymce/skins/lightgray/skin.min.css';
-
 import 'tinymce-yentext';
 import 'tinymce-plugin-responsive-image';
 import 'tinymce-plugin-h5img';
+import './skin/skin.min.css'
 
 declare global {
     interface Window {
