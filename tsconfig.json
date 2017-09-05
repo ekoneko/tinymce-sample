@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "strictNullChecks": false,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "target": "es5",
+        "outDir": "./dist/",
+        "allowJs": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

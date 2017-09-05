@@ -1,0 +1,38 @@
+{
+  "name": "tinymce-sample",
+  "version": "1.0.0",
+  "description": "For building my tinyMCE sample page",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekoneko/tinymce-sample.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ekoneko/tinymce-sample/issues"
+  },
+  "homepage": "https://ekoneko.github.io/tinymce",
+  "dependencies": {
+    "tinymce": "^4.6.6",
+    "tinymce-plugin-h5img": "^1.0.1",
+    "tinymce-plugin-responsive-image": "^1.0.0",
+    "tinymce-yentext": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.26",
+    "awesome-typescript-loader": "^3.2.3",
+    "css-loader": "^0.28.7",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.18.2",
+    "typescript": "^2.5.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
