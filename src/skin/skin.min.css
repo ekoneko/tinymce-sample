@@ -1136,7 +1136,7 @@ i.mce-i-checkbox {
 .mce-flow-layout {
     white-space: normal;
     height: 32px;
-    text-align: left;
+    text-align: center;
 }
 
 .mce-tinymce-inline .mce-flow-layout {
@@ -1910,7 +1910,11 @@ i.mce-i-backcolor {
     text-shadow: none;
     background: #bbb
 }
+
 .mce-i-yen {
-    content: '';
     background: url(./img/yen.png);
+}
+
+.mce-i-yen:before {
+    content: '';
 }
